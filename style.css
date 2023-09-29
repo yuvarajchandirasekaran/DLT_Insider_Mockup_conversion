@@ -1,0 +1,843 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* -----------------header navigation------------------ */
+
+.navbar .header-img {
+    content: url(images/header&footer/header.svg);
+    max-width: 1440px;
+    height: 100%;
+    width: 100%;
+}
+
+/* -----------------main container------------------ */
+
+.main-container {
+    margin-top: 60px;
+}
+
+/* -----------------section1------------------ */
+
+.main-container .flex-container {
+    padding-left: 115px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.main-container .flex-container .flex-item-left {
+    padding: 20px 0px 13px 0px;
+}
+
+.main-container .flex-container .flex-item-left .company_name {
+    width: 100%;
+}
+
+.main-container .flex-container .flex-item-left .company_name img {
+    max-width: 400px;
+}
+
+.flex-item-left .sec1-title {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 42px;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.flex-item-left .benefits-list {
+    list-style: none;
+}
+
+.flex-item-left .benefits-list>li {
+    font-family: Oxygen;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #313131;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.flex-item-left .benefits-list>li>img {
+    margin-right: 13px;
+}
+
+.flex-item-left .fb_join_btn {
+    margin-top: 15px;
+    border: none;
+    height: 50px;
+    width: 365px;
+    background-color: #1877F2;
+    padding: 7px 10px 7px 20px;
+}
+
+.fb_join_btn a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Oxygen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.flex-item-right {
+    width: 100%;
+}
+
+.flex-item-right img {
+    width: 100%;
+    max-width: 765px;
+}
+
+/* -----------------section2------------------ */
+
+.section2 .news-cont {
+    text-align: center;
+    margin-top: 96px;
+    padding: 0px 65px;
+}
+
+.news-cont .newLetter h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 26px;
+    color: #000000;
+}
+
+
+.news-cont .flex-container {
+    background-image: url(images/section2/bg_layer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 16px;
+    padding: 39px 40px;
+    align-items: center;
+}
+
+.news-cont .flex-container .mailBox-div {
+    display: flex;
+    align-items: center;
+}
+
+.news-cont .flex-container .mailBox-div p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;
+    margin: 0px 50px 0px 14px;
+
+}
+
+.news-cont .flex-container .email-input {
+    display: flex;
+    gap: 10px;
+}
+
+.news-cont .flex-container .email-input input {
+    height: 50px;
+    width: 325px;
+    border: 1px solid #ACACAC;
+    padding: 14px 20px;
+    background-color: #FFFFFF;
+    font-family: Oxygen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ACACAC;
+}
+
+.news-cont .flex-container .email-input input {
+    outline: none;
+}
+
+.news-cont .flex-container .email-input input::placeholder {
+    font-family: Oxygen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ACACAC;
+}
+
+.news-cont .flex-container .email-input .sign-up-btn {
+    height: 50px;
+    width: 100px;
+    background-color: #E04E00;
+    font-family: Oxygen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* ----------------section3-------------------------- */
+.section3 .flex-container {
+    margin-top: 70px;
+    padding: 0px 65px;
+    gap: 70px;
+
+}
+
+.section3 .user-review {
+    display: flex;
+    gap: 20px;
+}
+
+.section3 .user-review .product-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.user-review .reviewcontent .review-txt {
+    max-width: 275px;
+    font-family: Oxygen;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #101820;
+    margin-top: 25px;
+}
+
+.user-review .reviewcontent>img {
+    margin: 20px 0px 8px 0px;
+}
+
+.user-review .reviewcontent .user-name {
+    font-family: Oxygen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #101820;
+}
+
+/* -----------------section4--------------------------- */
+
+.section4 .container {
+    background-image: url(images/section4/bg_layer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section4 .flex-container {
+    margin-top: 80px;
+    padding: 30px 175px;
+    align-items: center;
+    gap: 40px;
+}
+
+.section4 .flex-container .promo-txt>:first-child {
+    width: 730px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.section4 .flex-container .promo-txt>:last-child {
+    font-family: Oxygen;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #FAC9AF;
+    margin-top: 20px;
+}
+
+/* ------------------footer---------------- */
+footer .footer-img {
+    content: url(images/header&footer/footer.svg);
+    width: 100%;
+}
+
+footer .footer-img>img {
+    height: 100%;
+    width: 100%;
+}
+
+/* ================================================================================================================== */
+
+
+/* -----------for mobile view------------- */
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    /* -----------------header navigation------------------ */
+    .navbar .header-img {
+        content: url(images/header&footer/header_mobile.svg);
+        max-width: 375px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    /* -----------------main container------------------ */
+    
+    .main-container {
+        margin-top: 30px;
+    }
+    
+    /* -----------------section1------------------ */
+    
+    .main-container .flex-container {
+        display: block;
+        padding: 0px 25px;
+        text-align: center;
+    }
+    
+    .main-container .flex-container .flex-item-left {
+        padding:0;
+    }
+    
+    .main-container .flex-container .flex-item-left .company_name {
+        width: 100%;
+    }
+    
+    .main-container .flex-container .flex-item-left .company_name img {
+        max-width: 278px;
+
+    }
+    
+    .flex-item-left .sec1-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .flex-item-left .benefits-list {
+        list-style: none;
+    }
+    
+    .flex-item-left .benefits-list>li {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .flex-item-left .benefits-list>li>img {
+        margin-right: 13px;
+    }
+    
+    .flex-item-left .fb_join_btn {
+        margin-top: 21px;
+        height: 44px;
+        width: 321px;
+        padding: 5px;
+    }
+    
+    .fb_join_btn a {
+        gap: 7px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .flex-item-right {
+        width: 100%;
+    }
+    
+    .flex-item-right img {
+        width: 100%;
+        max-width: 334px;
+        margin-top: 50px;
+
+    }
+    
+    /* -----------------section2------------------ */
+    
+    .section2 .news-cont {
+        text-align: center;
+        margin-top: 40px;
+        padding: 0px 20px;
+    }
+    
+    .news-cont .newLetter h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .newLetter img{
+        width: 122px;
+
+    }
+    .news-cont .flex-container {
+        background-image: url(images/section2/bg_layer_mobile.svg);
+        margin-top: 23px;
+        padding: 30px 20px;
+    
+    }
+    
+    .news-cont .flex-container .mailBox-div {
+        flex-direction: column;
+    }
+    
+    .news-cont .flex-container .mailBox-div p {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 17px 0 20px 0;
+    }
+    
+    .news-cont .flex-container .email-input {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .news-cont .flex-container .email-input input {
+        width: 294px;
+        font-size: 16px;
+    }
+    
+    .news-cont .flex-container .email-input input::placeholder {
+        font-size: 16px;
+    }
+    
+    .news-cont .flex-container .email-input .sign-up-btn {
+        width: 294px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    /* ----------------section3-------------------------- */
+    .section3 .flex-container {
+        margin-top: 40px;
+        padding: 0px 72px;
+    
+    }
+    
+    .section3 .user-review {
+        flex-direction: column;
+    }
+    
+    .section3 .user-review .product-img img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .user-review .reviewcontent .review-txt {
+        max-width: 204px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    
+    .user-review .reviewcontent>img {
+        margin: 5px 0px 4px 0px;
+    }
+    
+    .user-review .reviewcontent .user-name {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    
+    /* -----------------section4--------------------------- */
+    
+    .section4 .container {
+        background-image: url(images/section4/bg_layer_mobile.svg);
+    }
+    
+    .section4 .flex-container {
+        margin-top: 80px;
+        padding: 20px;
+        gap: 30px;
+    }
+    
+    .section4 .flex-container .promo-txt>:first-child {
+        width: 334px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .section4 .flex-container .promo-txt>:last-child {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    /* ------------------footet---------------- */
+    footer .footer-img {
+        content: url(images/header&footer/footer_mobile.svg);
+        width: 100%;
+    }
+    
+    footer .footer-img>img {
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+/* ================================================================================== */
+
+
+/* ------------------for tablet view------------------- */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .navbar .header-img {
+        content: url(images/header&footer/header_tablet.svg);
+        max-width: 768px;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* -----------------section1------------------ */
+
+    .main-container .flex-container {
+        text-align: center;
+        display: unset;
+        padding: 0px 35px;
+    }
+
+    .main-container .flex-container .flex-item-left {
+        padding: 0;
+    }
+
+    .flex-item-left .sec1-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .flex-item-left .benefits-list {
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .flex-item-left .benefits-list>li {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .flex-item-left .benefits-list>li>img {
+        margin-right: 13px;
+    }
+
+    .fb_join_btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .fb_join_btn a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .flex-item-right img {
+        width: 100%;
+    }
+
+
+    /* -----------------section2------------------ */
+
+    .section2 .news-cont {
+        margin-top: 40px;
+        padding: 0px 35px;
+    }
+
+    .news-cont .flex-container {
+        margin-top: 34px;
+        display: block;
+        padding: 30px 59px 40px 59px;
+        background-image: url(images/section2/bg_layer_tablet.svg);
+
+    }
+
+    .news-cont .newLetter h2 {
+        font-size: 26px;
+    }
+
+    .news-cont .flex-container .mailBox-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-cont .flex-container .mailBox-div p {
+        margin: 20px 0px 30px 0px;
+        font-size: 22px;
+    }
+
+    .news-cont .flex-container .email-input {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .news-cont .flex-container .email-input input {
+        font-size: 16px;
+    }
+
+    .news-cont .flex-container .email-input .sign-up-btn {
+        font-size: 16px;
+    }
+
+    /* ----------------section3-------------------------- */
+    .section3 .flex-container {
+        margin-top: 40px;
+        padding: 0px 153px;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .section3 .user-review {
+        display: flex;
+        gap: 15px;
+    }
+
+    .section3 .user-review .product-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .user-review .reviewcontent .review-txt {
+        max-width: 205px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    .user-review .reviewcontent>img {
+        margin: 5px 0px 6px 0px;
+    }
+
+    .user-review .reviewcontent .user-name {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+
+    /* -----------------section4--------------------------- */
+    .section4 .container {
+        background-image: url(images/section4/bg_layer_tablet.svg);
+    }
+
+    .section4 .flex-container {
+        margin-top: 60px;
+        padding: 30px 25px;
+        align-items: center;
+        gap: 30px;
+        display: flex;
+
+    }
+
+    .section4 .flex-container .avatar img {
+        height: auto;
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .section4 .flex-container .promo-txt>:first-child {
+        width: 462px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /* ------------------footet---------------- */
+    footer .footer-img {
+        content: url(images/header&footer/footer\ _tablet.svg);
+    }
+
+    footer .footer-img>img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* Styles for small desktops and laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* -----------------header navigation------------------ */
+
+    .navbar img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar .header-img {
+        content: url(images/header&footer/header_sm_desktop.svg);
+        max-width: 1024px;
+
+        height: 100%;
+        width: 100%;
+    }
+
+
+    /* -----------------main container------------------ */
+
+    .main-container {
+        margin-top: 60px;
+    }
+
+    /* -----------------section1------------------ */
+
+    .main-container .flex-container {
+        padding-left: 25px;
+        display: flex;
+        gap: unset;
+        align-items: unset;
+    }
+
+
+    .flex-item-left .sec1-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .flex-item-left .benefits-list {
+        list-style: none;
+    }
+
+    .flex-item-left .benefits-list>li {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .flex-item-left .benefits-list>li>img {
+        margin-right: 13px;
+    }
+
+    .fb_join_btn a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .flex-item-right {
+        max-width: 685px;
+    }
+
+    /* -----------------section2------------------ */
+
+    .section2 .news-cont {
+        margin-top: 80px;
+        padding: 0px 25px;
+    }
+
+    .news-cont .flex-container {
+        margin-top: 23px;
+
+    }
+
+    .news-cont .newLetter h2 {
+        font-size: 30px;
+    }
+
+    .news-cont .flex-container .mailBox-div {
+        display: flex;
+        align-items: center;
+    }
+
+    .news-cont .flex-container .mailBox-div p {
+        line-height: 30px;
+        margin: 0px 99px 0px 14px;
+
+    }
+
+    .news-cont .flex-container .email-input {
+        display: flex;
+        gap: 10px;
+    }
+
+
+    /* ----------------section3-------------------------- */
+    .section3 .flex-container {
+        margin-top: 60px;
+        padding: 0px 25px;
+        gap: 52px;
+    }
+
+    .section3 .user-review {
+        display: flex;
+        gap: 15px;
+    }
+
+    .section3 .user-review .product-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .user-review .reviewcontent .review-txt {
+        max-width: 205px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    .user-review .reviewcontent>img {
+        margin: 5px 0px 6px 0px;
+    }
+
+    .user-review .reviewcontent .user-name {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+
+    /* -----------------section4--------------------------- */
+
+    .section4 .flex-container {
+        padding: 30px 25px;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .section4 .flex-container .promo-txt>:first-child {
+        width: 634px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    /* ------------------footet---------------- */
+    footer .footer-img {
+        content: url(images/header&footer/Footer_Sm_Desktop.svg);
+        width: 100%;
+    }
+
+    footer .footer-img>img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
